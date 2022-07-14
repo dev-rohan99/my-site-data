@@ -40,7 +40,7 @@ app.use('/api', router);
 
 // add react front-end routing
 app.use('*', (req, res) => {
-    res.sendFile(path.resolve(__dirname, 'client-side', 'build', 'index.js'))
+    res.sendFile(path.resolve(__dirname, 'client-side', 'build', 'index.html'))
 })
 
 
