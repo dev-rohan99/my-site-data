@@ -21,7 +21,7 @@ app.use(xssClean());
 app.use(bodyParser.json());
 
 
-dotenv.config({ path: path.join(__dirname, "./confiq.env") });
+dotenv.config({ path: path.join(__dirname, "./config.env") });
 
 
 // datebase connection
